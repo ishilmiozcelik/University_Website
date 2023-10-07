@@ -22,8 +22,8 @@
 <section class="header">
 <nav>
 <a href="index.html"><img src="img/cut.png" alt=""></a>
-<div class="nav-links">
-  <i class="fa-solid fa-xmark"></i>
+<div class="nav-links" id="navLinks">
+  <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
 <ul>
     <li><a href="">HOME</a></li>
     <li><a href="">ABOUT</a></li>
@@ -32,6 +32,7 @@
     <li><a href="">CONTACT</a></li>
 </ul>
 </div>
+<i class="fa-solid fa-bars" onclick="showMenu()"></i>
 </nav>
     
 <div class="text-box">
@@ -40,5 +41,6 @@
 <a class="hero-btn" href="">Visit Us to Know More</a>
 </div>
 </section>
+<script src="script.js"></script>
 </body>
 </html>
